@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="14711" started-at="2021-01-26T10:16:06 IST" finished-at="2021-01-26T10:16:20 IST">
+  <suite name="Default suite" duration-ms="47101" started-at="2021-02-01T12:56:13 IST" finished-at="2021-02-01T12:57:00 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="14711" started-at="2021-01-26T10:16:06 IST" finished-at="2021-01-26T10:16:20 IST">
-      <class name="ParallelExecution.parallelexecution">
-        <test-method status="PASS" signature="createreport()[pri:0, instance:ParallelExecution.parallelexecution@3a883ce7]" name="createreport" duration-ms="14561" started-at="2021-01-26T10:16:06 IST" finished-at="2021-01-26T10:16:20 IST">
+    <test name="Default test" duration-ms="47101" started-at="2021-02-01T12:56:13 IST" finished-at="2021-02-01T12:57:00 IST">
+      <class name="TestNG.seleniumgrid$Grid_2">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestNG.seleniumgrid$Grid_2@68bbe345]" name="setUp" is-config="true" duration-ms="38592" started-at="2021-02-01T12:56:13 IST" finished-at="2021-02-01T12:56:52 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createreport -->
-        <test-method status="PASS" signature="createuser()[pri:0, instance:ParallelExecution.parallelexecution@3a883ce7]" name="createuser" duration-ms="10426" started-at="2021-01-26T10:16:06 IST" finished-at="2021-01-26T10:16:16 IST">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="simpleTest()[pri:0, instance:TestNG.seleniumgrid$Grid_2@68bbe345]" name="simpleTest" duration-ms="8326" started-at="2021-02-01T12:56:52 IST" finished-at="2021-02-01T12:57:00 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createuser -->
-      </class> <!-- ParallelExecution.parallelexecution -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- simpleTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNG.seleniumgrid$Grid_2@68bbe345]" name="afterTest" is-config="true" duration-ms="63" started-at="2021-02-01T12:57:00 IST" finished-at="2021-02-01T12:57:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNG.seleniumgrid$Grid_2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
